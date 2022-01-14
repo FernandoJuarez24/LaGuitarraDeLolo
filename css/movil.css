@@ -1,0 +1,32 @@
+@media (max-width: 500px){
+	.container-fluid{
+		padding-top: .5rem !important;
+		padding-bottom: .5rem !important;
+	}
+	.navbar-collapse{
+		padding-top: 2rem !important;
+	}
+	#bienvenida{
+		padding-top: 25% !important;
+	}
+	#bienvenida #contenedor{
+		width: 90% !important;
+	}
+
+	#notaNon .texto,
+	#notaPar .texto{
+		text-align: center !important;
+		align-items: center !important;
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
+	}
+	#about .texto,
+	#cuerpoNota .texto{
+		padding-right: 10% !important;
+		padding-left: 10% !important;
+	}
+	#about img,
+	#cuerpoNota img{
+		width: 100% !important;
+	}
+}

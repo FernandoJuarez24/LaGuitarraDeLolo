@@ -1,0 +1,221 @@
+<!-- PLATILLA - https://www.galletitadejengibre.com/ -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>La Guitarra de Lolo</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/movil.css">
+
+	<!-- BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- FONTAWESOME -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="icono.png" type="image/x-icon">	
+</head>
+<body>
+	<!-- LOADING -->
+    <div class="loading" id="loading">
+        <div class="lds-dual-ring"></div>
+    </div>
+
+	<header>
+		<!-- BARRA DE NAVEGACION -->
+		<div id="barra" class="shadow">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+				  <div class="container-fluid">
+
+				  	<!-- MARCA -->
+				    <!--<a class="navbar-brand" href="#">Mi <span>Blog</span></a>-->
+
+				    <!-- BURGER -->
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+
+				    <!-- MENU -->
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item me-4">
+				          <a class="nav-link text-reset" aria-current="page" href="#">Home</a>
+				        </li>
+				        <li class="nav-item me-4">
+				          <a class="nav-link text-reset" aria-current="page" href="#notas">Notas</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link text-reset" aria-current="page" href="#about">Conóceme</a>
+				        </li>
+				      </ul>
+				    </div>
+				  </div>
+				</nav>			
+			</div>
+		</div>
+
+		<!-- BIENVENIDA -->
+		<div id="bienvenida" class="d-flex flex-column justify-content-center align-items-center text-center">
+			<div id="contenedor">
+				<h1>La Guitarra de <span>Lolo</span></h1>
+
+				<hr>
+
+				<p>Bienvenido a mi Blog</p>
+			</div>
+		</div>		
+	</header>
+
+	<!-- REDES -->
+	<section id="redes">
+		<div class="container">
+			<div class="row">
+				<!-- FACEBOOK -->
+				<div class="col-md-6 p-5 redes">
+					<div id="face" class="d-flex justify-content-center align-items-center text-center">
+						<!-- TITULO -->
+						<div id="titulo" class="text-dark">
+							<a href="" class="text-reset text-decoration-none"><h2>FACEBOOK</h2></a>
+						</div>
+					</div>
+				</div>
+
+				<!-- INSTAGRAM -->
+				<div class="col-md-6 p-5 redes">
+					<div id="insta" class="d-flex justify-content-center align-items-center text-center">
+						<!-- TITULO -->
+						<div id="titulo" class="text-dark">
+							<a href="" class="text-reset text-decoration-none"><h2>INSTAGRAM</h2></a>
+						</div>
+					</div>
+				</div>
+				<div id="notas"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- NOTA 1 -->
+	<section id="notaNon">
+		<div class="container">
+			<div class="row">
+				<!-- IMG -->
+				<div class="col-md-6">
+					<img src="img/notas/01.jpg" alt="" class="w-100">
+				</div>
+
+				<!-- TEXTO -->
+				<div class="col-md-6 d-flex flex-column justify-content-center align-items-end text-end ps-md-4 texto">
+					<!-- TITULO -->
+					<h2 class="mb-4">Las mejores guitarras eléctricas para cada estilo, habilidad y presupuesto</h2>
+
+					<a href="nota01.html">Saber más</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- NOTA 2 -->
+	<section id="notaPar">
+		<div class="container">
+			<div class="row">
+				<!-- TEXTO -->
+				<div class="col-md-6 d-flex flex-column justify-content-center align-items-start pe-md-4 order-2 order-md-1 texto">
+					<!-- TITULO -->
+					<h2 class="mb-4">Por qué la Fender Stratocaster cuesta lo que cuesta</h2>
+
+					<a href="nota02.html">Saber más</a>
+				</div>
+
+				<!-- IMG -->
+				<div class="col-md-6 order-1 order-md-2">
+					<img src="img/notas/02.jpg" alt="" class="w-100">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- NOTA 3 -->
+	<section id="notaNon">
+		<div class="container">
+			<div class="row">
+				<!-- IMG -->
+				<div class="col-md-6">
+					<img src="img/notas/03.jpg" alt="" class="w-100">
+				</div>
+
+				<!-- TEXTO -->
+				<div class="col-md-6 d-flex flex-column justify-content-center align-items-end text-end ps-md-4 texto">
+					<!-- TITULO -->
+					<h2 class="mb-4">Aprende: ¿Cómo afinar una guitarra eléctrica?</h2>
+
+					<a href="nota03.html">Saber más</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ABOUT -->
+	<section id="about" class="pb-5">
+		<div class="container">
+			<!-- IMG -->
+			<div class="row mb-5">
+				<div class="col-12 d-flex justify-content-center align-items-center">
+					<img src="img/about/01.png" alt="" class="w-50">
+				</div>
+			</div>
+
+			<!-- TEXTO -->
+			<div class="row">
+				<div class="col-12 d-flex flex-column justify-content-center align-items-center text-center text-light texto">
+					<h2>Hola! Gracias por visitar mi Blog</h2>
+
+					<p class="my-3">Soy <span>Lolo Slash</span>, músico, guitarrista y maestro de música independiente</p>
+
+					<p class="mb-4">Conoce mi trabajo visitando mis <span>redes sociales</span></p>
+
+					<div id="iconosRedes" class="d-flex justify-content-center align-items-center">
+						<!-- FACEBOOK -->
+						<div>
+							<i class="fab fa-facebook-square"></i>
+						</div>
+
+						<!-- INSTAGRAM -->
+						<div class="mx-5">
+							<i class="fab fa-instagram"></i>
+						</div>
+
+						<!-- YOUTUBE -->
+						<div>
+							<i class="fab fa-youtube"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer id="footer" class="py-4">
+		<div class="container">
+			<div class="row">
+				<div class="co-12 d-flex flex-column justify-content-center align-items-center text-center text-light">
+					<h3 class="mb-3">La Guitarra de Lolo | Derechos Reservados</h3>
+
+					<p>Desarrollado por Fernando Júarez A.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<!-- BOOTSTRAP Y POPPY -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="js/loading.js"></script>
+</body>
+</html>

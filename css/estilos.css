@@ -1,0 +1,290 @@
+:root{
+  --purple: #574b90;
+  --oscuro:  #2f3640;
+}
+/* RESET */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+.container-fluid{
+  padding:0 !important;
+}
+.row > *{
+  padding: 0 !important;
+}
+.row{
+  margin:0 !important;
+}
+h1,h2,h3{
+	margin:0 !important;
+}
+p{
+	margin:0 !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden !important;
+  background-color: whitesmoke !important;
+  font-family: textos !important;
+}
+/* RESET */
+
+/* FUENTES */
+@font-face {
+    font-family: subTitulo;
+    src: url("../fuentes/JosefinSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: titulo;
+    src: url("../fuentes/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: textos;
+    src: url("../fuentes/JosefinSans-Light.ttf");
+}
+/* FUENTES */
+
+/* ESTILOS GENERALES */
+#bienvenida h1{
+  font-family: textos !important;
+  font-size: 4rem;
+}
+#bienvenida h1 span{
+  font-family: subTitulo !important;
+  color: var(--purple) !important;
+}
+#redes h2,
+#notaNon h2,
+#notaPar h2,
+#about h2,
+#cuerpoNota h2,
+#interes h2{
+  font-size: 2.5rem !important;
+  font-family: subTitulo !important;
+}
+#cuerpoNota h3,
+#interes h3{
+  font-size: 2rem !important;
+  font-family: subTitulo !important;
+}
+#bienvenida p{
+  font-family: textos !important;
+  font-size: 2.5rem !important;
+}
+#notaNon{
+  background-color: white !important;
+}
+#notaPar{
+  background-color: whitesmoke !important;
+}
+#notaNon a,
+#notaPar a{
+  font-family: subTitulo !important;
+  font-size: 1.5rem !important;
+  color: var(--purple) !important;
+  transition: 0.5s !important;
+}
+#notaNon a:hover,
+#notaPar a:hover{
+  color: black !important;
+}
+#about p,
+#cuerpoNota p,
+#cuerpoNota ol li{
+  font-family: textos !important;
+  font-size: 1.5rem !important;
+}
+#about p span,
+#cuerpoNota p span{
+  font-family: subTitulo !important;
+}
+
+/* BARRA DE NAVEGACION */
+header{
+  background-color: white !important;
+}
+header #barra{
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 999 !important;
+  background-color: white !important;
+}
+header #barra .navbar .navbar-brand{
+  font-size: 2rem !important;
+}
+header #barra .navbar .navbar-brand span{
+  font-family: SubTitulo !important;
+}
+header #barra .navbar .navbar-collapse .navbar-nav li a{
+  font-family: subTitulo !important;
+  font-size: 1.5rem !important;
+  color: black !important;
+  transition: 0.5s !important;
+}
+header #barra .navbar .navbar-collapse .navbar-nav li a:hover{
+  color: var(--purple) !important;
+}
+#bienvenida{
+  background-color: white !important;
+  padding-top: 4% !important;
+}
+#bienvenida #contenedor{
+  width: 40% !important;
+  padding: 4rem 0 !important;
+}
+
+/* REDES */
+.redes #face{
+  background: url(../img/redes/01.jpg);
+  background-position: center !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  transition: 0.5s !important;
+}
+.redes #insta{
+  background: url(../img/redes/02.jpg);
+  background-position: center !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  transition: 0.5s !important;
+}
+.redes #face #titulo,
+.redes #insta #titulo{
+  width: 100% !important;
+  background-color: whitesmoke !important;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.redes #face #titulo h2,
+.redes #insta #titulo h2{
+  transition: 0.5s !important;
+}
+.redes #face #titulo h2:hover,
+.redes #insta #titulo h2:hover{
+  color: var(--purple) !important;
+  transform: scale(1.1) !important;
+}
+
+/* ABOUT */
+#about{
+  background-color: var(--purple) !important;
+}
+#about #iconosRedes i{
+  font-size: 3rem !important;
+  transition: 0.5s !important;
+  cursor: pointer !important;
+}
+#about #iconosRedes i:hover{
+  opacity: 0.6 !important;
+}
+
+/* FOOTER */
+#footer{
+  background-color: black !important;
+}
+
+/* NOTAS */ 
+#cuerpoNota p{
+  text-align: justify  !important;
+}
+
+/* NOTAS INTERES */
+#interes{
+  background-color: var(--purple) !important;
+}
+#interes #notaUno{
+  background: url(../img/notas/01.jpg);
+  background-position: center !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  transition: 0.5s !important;
+}
+#interes #notaDos{
+  background: url(../img/notas/02.jpg);
+  background-position: center !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  transition: 0.5s !important;
+}
+#interes #notaTres{
+  background: url(../img/notas/03.jpg);
+  background-position: center !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  transition: 0.5s !important;
+}
+#interes #notaUno #titulo,
+#interes #notaDos #titulo,
+#interes #notaTres #titulo{
+  width: 100% !important;
+  background-color: whitesmoke !important;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 0.5rem !important;
+}
+#interes #notaUno #titulo h3,
+#interes #notaDos #titulo h3,
+#interes #notaTres #titulo h3{
+  transition: 0.5s !important;
+}
+#interes #notaUno #titulo h3:hover,
+#interes #notaDos #titulo h3:hover,
+#interes #notaTres #titulo h3:hover{
+  color: var(--purple) !important;
+  transform: scale(1.1) !important;
+}
+
+/* PRELOADER */
+.loading{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 100000;
+  clip-path: circle(100% at 50% 50%);
+  transition: clip-path 0.8s ease-in-out;
+}
+.loading2{
+  clip-path: circle(0% at 50% 50%);
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: white transparent white transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
